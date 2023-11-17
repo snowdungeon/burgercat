@@ -1,7 +1,6 @@
 // Array of roing names
 const roingNames = [
   "burgercat",
-  "burgercat",
 ];
 
 const vowels = ["a", "e", "i", "o", "u"];
@@ -25,7 +24,7 @@ const timeElm = document.querySelector("#time");
 const countElm = document.querySelector("#count");
 
 // Audio elements
-const grabAudio = new Audio("/assets/audio/grab.mp3");
+const grabAudio = new Audio("https://cdn.discordapp.com/attachments/1175023988628520963/1175026434092314624/grab.mp3?ex=6569bba4&is=655746a4&hm=f3f74812bef3d5104f1066c8f02c0ab91871cd5b586fa26325caf330bc7f09e7&");
 const releaseAudio = new Audio("/assets/audio/release.mp3");
 grabAudio.volume = 0.15;
 releaseAudio.volume = 0.15;
